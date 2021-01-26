@@ -54,7 +54,6 @@ document.addEventListener("DOMContentLoaded", () => {
 			currObstacle.style.left = obstacleLeft + "px";
 		}
 		function ifBirdLost() {
-			console.log(birdBottom, birdHeight);
 			return (
 				(obstacleLeft > 200 &&
 					obstacleLeft < 280 &&
