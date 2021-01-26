@@ -76,10 +76,10 @@ body {
 	position: absolute;
 }
 .container {
-	position: relative;
-	width: 100%;
-	left: 55%;
-	transform: translateX(-25%);
+    position: relative;
+    width: 100%;
+    left: calc(50%);
+    transform: translateX(-25%);
 }
 
 @keyframes slideright {
